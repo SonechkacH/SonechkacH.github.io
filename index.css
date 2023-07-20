@@ -1,0 +1,251 @@
+@font-face {
+    font-family: "Boozy";
+    src: url(ofont.ru_Boozy.ttf)
+}
+
+/* HEADER */
+.header{
+    width:100%;
+    color:white;
+    padding: 20px;
+    background:pink;
+    box-sizing: border-box;
+    font-family: Boozy;
+    font-size: 20px;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-link{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu-link{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.menu{
+    margin-left: 50px;
+}
+
+.menu{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+.header-logo{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.cards-row{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.logo-img{
+    margin-right: 20px;
+}
+
+.header-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-menu{
+    flex-grow: 3;
+}
+
+.banner-title, .banner-description{
+    text-align: center;
+    color:white;
+}
+
+.banner-title{
+    font-size: 48px;
+    font-family: Boozy;
+    font-size: 50px;
+}
+
+.banner-section{
+    padding: 100px 0;
+    background: url(banner1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cards-section{
+    padding: 50px 0px;
+
+}
+
+.cards-title, .cards-discription{
+color:#DB7093;
+text-align: right;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.cards-title{
+    font-family: Boozy;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: white;
+    box-shadow: 0px 2px 40px 0px #DB7093;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.cards-link{
+    text-decoration: none;
+    color: white;
+}
+
+.cards-button{
+    text-align: center;
+    background:#DB7093;
+    padding: 10px 70px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.card-title, .card-text{
+    margin-top: 10px;
+}
+
+.card{
+    margin: 20px;
+}
+
+.card-title{
+    color:#DB7093;
+    font-family: Boozy;
+    font-size: 30px;
+
+}
+
+.footer{
+    background: url(banner1.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.copyright{
+    color: white;
+}
+
+.cards-button{
+    cursor: pointer;
+}
+
+.logo-img{
+    margin: 35px;
+}
+
+.social-networks{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.footer-logo{
+    margin:20px;
+    width:60px;
+    height:60px;
+}
+
+.footer-row{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+/*transition: property duration timing-function, delay */
+
+/*меняем цвет текста */
+/*.cards-button{
+    background-color: #DB7093;
+    transition: background 2s linear .2s;
+}
+
+.cards-button{
+    background-color: #DB7093;
+    transition: background 0.5s ease-in .2s;
+}
+.cards-button:hover{
+    background: #FF1493;
+}
+
+.cards-text{
+    background: #FFC0CB;
+    width: 200px;
+    transition-property: width;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.55;
+}
+
+.cards-text:hover{
+    width:270px;
+}
+
+/* меняем 2 свойства */
+/*.cards-text{
+    background: #FFC0CB;
+    width: 200px;
+    transition-property: background, color;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+} */
+
+/*.cards-text:hover{
+    background: #FF1493;
+    color:white;
+} */
+
+.card{
+    background: #FFC0CB;
+    width:500px;
+    height: 500px;
+    border-radius: 0;
+    transition-property: background, border-radius;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: .2s;
+}
+
+.card:hover{
+    background: #FF1493;
+    border-radius: 100px;
+}
